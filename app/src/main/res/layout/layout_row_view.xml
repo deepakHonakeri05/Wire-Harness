@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:padding="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:textSize="17dp"
+           android:textColor="@android:color/black"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:text="Part Number :"
+           android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:id="@+id/part_noTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+       <TextView android:textSize="17dp"
+           android:textColor="@android:color/black"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:text="Quantity :"
+           android:layout_height="wrap_content" />
+
+        <TextView android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/qtyTV"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+
+   </LinearLayout>
+
+     <LinearLayout
+         android:padding="8dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:textSize="17dp"
+             android:textColor="@android:color/black"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:text="UOM :"
+             android:layout_height="wrap_content" />
+        <TextView android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:id="@+id/uomTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Description :"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/descTV"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="BAPS :"
+                android:layout_height="wrap_content" />
+        <TextView android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:id="@+id/bapsTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

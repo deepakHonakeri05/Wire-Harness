@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:text="End Item :"/>
+        <TextView
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:id="@+id/endItemTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:text="Part Number :"/>
+        <TextView
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:id="@+id/partNoTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quantity :"/>
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:id="@+id/EQtyTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

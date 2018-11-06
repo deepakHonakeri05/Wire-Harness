@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Wire :"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="1"
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/wireTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="MultiCore :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:id="@+id/multicoreTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Part Number :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:id="@+id/partnumTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="End ID 1 :"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" />
+         <TextView
+              android:textSize="17dp"
+              android:textColor="@android:color/black"
+              android:id="@+id/endID1TV"
+             android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              tools:text="TextView" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Pin 1 :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/pin1TV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Term 1 :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/term1TV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="End ID 2 :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/endID2TV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Pin 2 :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/pin2TV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Term 2 :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:id="@+id/term2TV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Length :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/lengthTV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Design :"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/designTV"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>

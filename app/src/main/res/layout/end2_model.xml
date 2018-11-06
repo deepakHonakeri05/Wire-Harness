@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TwoLineListItem
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:layout_marginStart="5dp"
+        android:mode="twoLine">
+        <TextView
+           android:id="@+id/endItem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="t1"
+            android:textAppearance="?attr/textAppearanceListItem" />
+        <TextView
+            android:layout_marginStart="100dp"
+            android:id="@+id/partNo2"
+            android:text="t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/endItem2"
+            android:layout_alignStart="@id/endItem2"
+            android:textAppearance="?attr/textAppearanceListItemSecondary" />
+        <TextView
+            android:layout_marginStart="100dp"
+            android:id="@+id/qty"
+            android:text="t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/partNo2"
+            android:gravity="end"
+            android:layout_marginEnd="40dp"
+            android:textAppearance="?attr/textAppearanceListItemSecondary" />
+    </TwoLineListItem>
+
+</LinearLayout>

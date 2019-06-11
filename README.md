@@ -3,10 +3,9 @@ A voice-automated Android Application that queries on an a back-end using Google
 
 
 # Overview of application 
+ Login Screen, where each login ID/Password is given by unique set of pre-defined ID's.
 
-A. Login Screen, where each login ID/Password is given by unique set of pre-defined ID's.
-
-<img src="./app/Screenshots/Login_screen.png" width="400" height="790">
+<img src="./app/Screenshots/Login_screen.png" width="400" height="650">
 
 B. For a given Wire-Harness part, contains the following system-components and a query is made through voice.
 

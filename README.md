@@ -16,9 +16,8 @@ A Voice query is made on a Parts Component list comprising of :
 * 2D drawing
 * Connector images
 
-<img src="./app/Screenshots/item_query.png" width="350" height="650"> ---> <img src="./app/Screenshots/total_item_list.png" width="350" height="650">
+<img src="./app/Screenshots/item_query.png" width="350" height="650">
 
-Now another query is made for a single sub-component item 
 
-<img src="./app/Screenshots/toal_itm_srch.png" width="350" height="650"> ---> <img src="./app/Screenshots/total_item_result.png" width="350" height="650">
+
 
